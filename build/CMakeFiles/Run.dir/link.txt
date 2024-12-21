@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Run.dir/run.c.o -o Run  -Wl,-rpath,/home/hoangbui/curl/build/lib /home/hoangbui/curl/build/lib/libcurl.so -lm 
