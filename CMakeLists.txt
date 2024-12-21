@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20.0)
+project(Test)
+add_executable(Run run.c)
+include_directories(/home/hoangbui/curl/build/include/)
+target_link_libraries(Run /home/hoangbui/curl/build/lib/libcurl.so)
+target_link_libraries(Run m)
